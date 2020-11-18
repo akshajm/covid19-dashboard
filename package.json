@@ -1,6 +1,6 @@
 {
   "name": "covid-dashboard",
-  "homepage": "http://akshajm.github.io/covid19-dashboard",
+  "homepage": "https://akshajm.github.io/covid19-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
