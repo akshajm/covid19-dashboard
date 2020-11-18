@@ -1,0 +1,43 @@
+* {
+  margin: 0
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app__left {
+  flex: 0.9
+}
+
+.app__header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__stats > div {
+  flex: 1
+}
+
+.app__stats > div:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
